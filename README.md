@@ -15,6 +15,25 @@ A web-based mini project built for a Database Management Systems (DBMS) course u
 
 ## 📁 Project Structure
 
+```
+DBMS-Prg1/
+│
+├── index.html / index.php           # Entry point for the web app
+├── auth.php / login.php             # Login authentication scripts
+├── add_student.php / edit.php       # PHP files for CRUD operations
+├── db.php                           # Database connection file
+│
+├── assets/                          # CSS, JavaScript files
+│   ├── style.css
+│   └── script.js
+│
+├── sql/                             # SQL schema and seed data
+│   ├── schema.sql
+│   └── data.sql
+│
+└── README.md                        # Project overview (this file)
+```
+
 
 ---
 
