@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Background image */
+.background {
+    background: linear-gradient(to right, #4A90E2, #FF6FA3);
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5PPUQbQ7hh5U8xorP1Q6ky11pY77UHjc__8G02RSyrW4O6V42SgKZX4&s'); */
+    /* background-image: url('   https://img.freepik.com/premium-photo/futuristic-blue-glowing-neon-round-portal-sci-fi-background_118195-79.jpg?ga=GA1.1.434963276.1742919052&w=740  '); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Glassy form container */
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:   rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    width: 320px;
+    color: #312929; /* Black text */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000; /* Black heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #000; /* Black labels */
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.65);
+    color: #000;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0ad436;
+}
+
+a {
+
+    button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+}
