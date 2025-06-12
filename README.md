@@ -86,15 +86,9 @@ Feel free to fork this project and submit pull requests for improvements or new 
 
 ---
 
-## 📜 License
-
-This project is open source and free to use under the [MIT License](LICENSE).
-
----
-
 ## 📬 Contact
 
 For questions or collaborations:
-**Your Name** – [socialmediacc1995@gmail.com]
+**CodeVeda42** – [socialmediacc1995@gmail.com]
 
 Happy coding! 💻🧠
